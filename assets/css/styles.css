@@ -1,0 +1,84 @@
+:root{--textcolor:#000;--color1:#cd2e53;--main-font:'PT Sans', sans-serif;}
+body{font-family:var(--main-font);color:var(--textColor)}
+img{max-width:100%}
+.container-fluid{padding:0}
+header{background:url(../imgs/header.png);background-size: cover;height: 265px;}
+h1{font-family: 'Oswald', sans-serif;color:#fff;text-align: center;width: 333px;margin: auto;margin-top: 80px;font-size: 38px;line-height: 46px;text-shadow: 2px 2px 21px #2b2b2b;letter-spacing: 1px;}
+.content.bg{background:url(../imgS/bg.png)}
+.slogan{color:#4d1d4a;font-size: 18px;text-align:center;font-family:'Roboto', sans-serif;padding: 10px 188px;border-bottom: 3px solid #8a3220;margin-top: 38px;padding-bottom: 45px;letter-spacing: .8px;margin-bottom: 36px;}
+.tc {
+    text-align: center;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+.ticket {
+    text-align: center;
+    width: 238px;
+    margin-top: 13px;
+    float: right;
+    padding-right: 13px;
+    margin-bottom: 10px;
+}
+
+.content>.container {
+    background: #faf5f3;
+    padding: 0;
+    max-width: 840px;
+}
+
+.item {
+    border: 1px solid #ddd9d8;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    max-width: 680px;
+    height: 264px;
+    background: #f6f2f0;
+    margin-bottom: 12px;
+}
+
+h3.title {
+    margin-top: 12px;
+    font-size: 19px;
+    padding-right: 20px;
+    line-height: 23px;
+    margin-bottom: 29px;
+}
+
+.details {
+    margin-left: -10px;
+}
+
+h3.title b {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-right: -4px;
+}
+
+.details p {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+button.btn.primary-btn {
+    background: var(--color1);
+    width: 214px;
+    border-radius: 3px;
+    margin-top: 7px;
+    height: 47px;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #2b2b2b;
+    box-shadow: 0px 2px 3px #d9bcc0;
+}
+.slogan p {
+    margin-bottom: 0;
+}
+.content>.container:last-of-type {
+    padding-bottom: 39px;
+}
