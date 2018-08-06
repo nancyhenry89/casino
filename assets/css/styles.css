@@ -4,7 +4,7 @@ img{max-width:100%}
 .container-fluid{padding:0}
 header{background:url(../imgs/header.png);background-size: cover;height: 265px;}
 h1{font-family: 'Oswald', sans-serif;color:#fff;text-align: center;width: 333px;margin: auto;margin-top: 80px;font-size: 38px;line-height: 46px;text-shadow: 2px 2px 21px #2b2b2b;letter-spacing: 1px;}
-.content.bg{background:url(../imgS/bg.png)}
+.content.bg{background:url(../imgs/bg.png)}
 .slogan{color:#4d1d4a;font-size: 18px;text-align:center;font-family:'Roboto', sans-serif;padding: 10px 188px;border-bottom: 3px solid #8a3220;margin-top: 38px;padding-bottom: 45px;letter-spacing: .8px;margin-bottom: 36px;}
 .tc {
     text-align: center;
